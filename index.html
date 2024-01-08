@@ -19,6 +19,16 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
+        <div class="mobile-menu" id="mobile-menu">
+            <ul>
+                <li><a href="#" class="borderBottom">Home</a></li>
+                <li><a href="#about" class="borderBottom">About</a></li>
+                <li><a href="#services" class="borderBottom">Services</a></li>
+                <li><a href="#portfolio" class="borderBottom">Portfolio</a></li>
+                <li><a href="#team" class="borderBottom">Team</a></li>
+                <li><a href="#contact" class="borderBottom">Contact</a></li>
+            </ul>
+        </div>
         <header id="header"
             onmouseover="hidein()"
             onmouseout="hideout()">
@@ -92,7 +102,7 @@
                         </ul>
                         <button>Get Started</button>
                     </div>
-                    <i class="fa-solid fa-bars fa-2x"></i>
+                    <i class="fa-solid fa-bars fa-2x" id="hamburger"></i>
                 </div>
             </nav>
             <section>

@@ -1,6 +1,9 @@
 window.addEventListener('scroll', function () {
-  let naveg = document.querySelector('nav')
   nav.classList.toggle('stickey', window.scrollY > 180)
+})
+window.addEventListener('scroll', function () {
+ let sbtn=document.getElementById(`stickey-btn`);
+ sbtn.classList.toggle(`hidden`,window.scrollY>180)
 })
 let box1 = document.getElementById('boxx')
 let btn = document.getElementById('dropbtn')
@@ -16,6 +19,22 @@ let sbox = document.getElementById('subbox')
 function ddown () {
   sbox.style.display = ('block')
 }
+let bars=document.getElementById(`hamburger`);
+let menu=document.getElementById(`mobile-menu`);
+let ml1=menu.querySelectorAll(`li`)[0]
+let ml2=menu.querySelectorAll(`li`)[1]
+let ml3=menu.querySelectorAll(`li`)[2]
+let ml4=menu.querySelectorAll(`li`)[3]
+let ml5=menu.querySelectorAll(`li`)[4]
+let ml6=menu.querySelectorAll(`li`)[5]
+menu.style.display=`none`
+bars.addEventListener(`click`,()=>{menu.classList.toggle(`menuslide`);menu.style.display=`flex`})
+ml1.addEventListener(`click`,()=>{menu.style.display=`none`})
+ml2.addEventListener(`click`,()=>{menu.style.display=`none`})
+ml3.addEventListener(`click`,()=>{menu.style.display=`none`})
+ml4.addEventListener(`click`,()=>{menu.style.display=`none`})
+ml5.addEventListener(`click`,()=>{menu.style.display=`none`})
+ml6.addEventListener(`click`,()=>{menu.style.display=`none`})
 function tog1 () {
   let iconup = document.getElementById('iup')
   let iconup2 = document.getElementById('iup2')

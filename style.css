@@ -6,9 +6,67 @@
   font-family: "Outfit", sans-serif;
   scroll-behavior: smooth;
 }
-.body {
-  overflow-x: hidden;
+.menuslide{
+animation:entery1 1s forwards 1;
 }
+@keyframes entery1 {
+  0%{
+    height: 0%;
+  }
+  95%{
+    height: 96%;
+  }
+  100%{
+    height: 95vh;
+  }
+}
+.hidden{
+  display:none;
+}
+.mobile-menu{
+  display: none;
+  padding: 2rem;
+  width: 90%;
+  overflow: hidden;
+  position: fixed;
+  border: #0098da 1px solid;
+  background-color: rgba(255, 255, 255, 0.668);
+  backdrop-filter: blur(10px);
+  z-index: 10;
+  top: 55%;
+  left:50%;
+  transform: translate(-50%,-45%);
+  border-radius: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mobile-menu a{
+  text-decoration: none;
+  color:  #023b6d;
+  font-size:2rem;
+}
+.borderBottom{
+  position: relative;
+}
+.borderBottom::after{
+  content:"";
+  position: absolute;
+  background-color: #023b6dce;
+  left:0;
+  bottom: -0.1rem;
+  width:0%;
+  height: 0.2rem;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.borderBottom:hover::after{
+  width: 100%;
+}
+.mobile-menu ul{list-style: none;}
+.mobile-menu li{margin: 2rem 0;}
+.body {overflow-x: hidden;}
 .stickey-button a i {
   position: fixed;
   color: white;
@@ -44,7 +102,7 @@ header {
 nav {
   width: 100%;
   height: auto;
-  z-index: 2;
+  z-index:12;
   position: fixed;
   display: flex;
   justify-content: start;
@@ -2622,10 +2680,12 @@ transition: 0.3s;
          }
          textarea{
           width: 100%;
-         }
-        
+         }  
   }
   @media screen and (max-width:992px){
+    nav .navsec-1{
+      display:none;
+    }
     nav .navsec-2{
       padding-left: 0px;
       padding-right: 30px;
@@ -2640,6 +2700,7 @@ transition: 0.3s;
     header {
       width: 100vw;
       height: 100vh;
+      padding-bottom: 1rem;
     }
     header section .container-1{
       margin-top: 0px;
@@ -2705,7 +2766,6 @@ transition: 0.3s;
     .about .container-3 .box-2{
       width: 75%;
     }
-    
     .services .cards .card-1{
       width:18rem;
       margin: 10px  0px;
@@ -2887,7 +2947,7 @@ transition: 0.3s;
         padding: 50px 1rem;
       }
       .team .par{
- margin: 10px 0;
+       margin: 10px 0;
       }
       .team .containers .container-1{
       width: 100%;
