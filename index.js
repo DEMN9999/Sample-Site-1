@@ -56,9 +56,9 @@ function tog1 () {
     iconup.style.display = ('block')
     iconup2.style.display = ('none')
     iconup3.style.display = ('none')
-    iconup.style.color = ('#31a9e1')
+    iconup.style.color = ('rgb(234, 139, 43)')
     iconup2.style.color = ('#444444')
-    aboutPoint1.style.color = ('#31a9e1')
+    aboutPoint1.style.color = ('rgb(234, 139, 43)')
     aboutPoint2.style.color = ('#444444')
     aboutPoint3.style.color = ('#444444')
     paragraph1.style.display = ('block')
@@ -114,8 +114,8 @@ function tog3 () {
     icondown3.style.display = ('block')
     iconup2.style.display = ('none')
     iconup3.style.display = ('none')
-    iconup.style.color = ('#31a9e1')
-    aboutPoint1.style.color = ('#31a9e1')
+    iconup.style.color = ('rgb(234, 139, 43)')
+    aboutPoint1.style.color = ('rgb(234, 139, 43)1')
     aboutPoint2.style.color = ('#444444')
     aboutPoint3.style.color = ('#444444')
     paragraph1.style.display = ('block')
@@ -170,8 +170,8 @@ function togg5 () {
     icondown3.style.display = ('block')
     iconup2.style.display = ('none')
     iconup3.style.display = ('none')
-    iconup.style.color = ('#31a9e1')
-    aboutPoint1.style.color = ('#31a9e1')
+    iconup.style.color = ('rgb(234, 139, 43)')
+    aboutPoint1.style.color = ('rgb(234, 139, 43)')
     aboutPoint2.style.color = ('#444444')
     aboutPoint3.style.color = ('#444444')
     paragraph1.style.display = ('block')
@@ -212,19 +212,19 @@ let linehov1 = document.getElementById('a-p1')
 let linehov2 = document.getElementById('a-p2')
 let linehov3 = document.getElementById('a-p3')
 function hovv1 () {
-  linehov1.style.color = ('#31a9e1')
+  linehov1.style.color = ('rgb(234, 139, 43)')
 }
 function hoov1 () {
   linehov1.style.color = ('#444444')
 }
 function hovv2 () {
-  linehov2.style.color = ('#31a9e1')
+  linehov2.style.color = ('rgb(234, 139, 43)')
 }
 function hoov2 () {
   linehov2.style.color = ('#444444')
 }
 function hovv3 () {
-  linehov3.style.color = ('#31a9e1')
+  linehov3.style.color = ('rgb(234, 139, 43)')
 }
 function hoov3 () {
   linehov3.style.color = ('#444444')
@@ -275,11 +275,11 @@ function hideout () {
 }
 function stickeybtnonhover () {
   let btn = document.getElementById('stickey-btn-a')
-  btn.style.backgroundColor = ('#78d3fdd5')
+  btn.style.backgroundColor = ('rgb(234, 139, 43)')
 }
 function stickeybtnouthover () {
   let btn = document.getElementById('stickey-btn-a')
-  btn.style.backgroundColor = ('#00a6eb')
+  btn.style.backgroundColor = ('rgb(234, 139, 43)')
 }
 function portfoliobtn1click () {
   let box1 = document.getElementById('boxx-1')
