@@ -8,7 +8,7 @@ window.addEventListener('scroll', function () {
 let box1 = document.getElementById('boxx')
 let btn = document.getElementById('dropbtn')
 function drophovin () {
-  boxx.style.display = ('block')
+  boxx.style.display = ('flex')
 }
 function drophovout () {
   boxx.style.display = ('none')

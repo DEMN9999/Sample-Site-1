@@ -6,13 +6,6 @@
   font-family: "Outfit", sans-serif;
   scroll-behavior: smooth;
 }
-.colors{
-color: rgb(24, 2, 75);
-color: rgb(234, 139, 43);
-color: rgb(202, 52, 38);
-color: #31a9e1;
-color: #78d3fdd5;
-} 
 .menuslide{
 animation:entery1 1s forwards 1;
 }
@@ -547,6 +540,8 @@ span.no {
   transition: 0.3s;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  padding: 10px 0px;
 }
 .about .container-2 .box-1 .points .point-1:hover {
   cursor: pointer;
@@ -559,8 +554,7 @@ span.no {
   display: none;
 }
 .about .container-2 .box-1 .points .par-1 {
-  padding-top: 10px;
-  margin-left: 40px;
+  padding: 10px 40px;
   display: none;
   transition: 1s;
   color: #444444;
@@ -573,6 +567,8 @@ span.no {
   transition: 0.3s;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  padding: 10px 0px;
 }
 .about .container-2 .box-1 .points .point-2:hover {
   cursor: pointer;
@@ -585,8 +581,7 @@ span.no {
   display: none;
 }
 .about .container-2 .box-1 .points .par-2 {
-  padding-top: 10px;
-  margin-left: 40px;
+  padding: 10px 40px;
   display: none;
   transition: 1s;
   color: #444444;
@@ -600,6 +595,8 @@ span.no {
   flex-direction: row;
   margin-top: 10px;
   background-color: white;
+  align-items: center;
+  padding: 10px 0px;
 }
 .about .container-2 .box-1 .points .point-3:hover {
   cursor: pointer;
@@ -612,8 +609,7 @@ span.no {
   display: none;
 }
 .about .container-2 .box-1 .points .par-3 {
-  padding-top: 10px;
-  margin-left: 40px;
+  padding: 10px 40px;
   display: none;
   transition: 1s;
   color: #444444;
